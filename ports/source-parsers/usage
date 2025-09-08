@@ -1,0 +1,4 @@
+source-parsers provides CMake targets:
+
+find_package(source-parsers CONFIG REQUIRED)
+target_link_libraries(main PRIVATE SourceParsers::bspparser)

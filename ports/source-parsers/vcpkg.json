@@ -1,0 +1,17 @@
+{
+  "name": "source-parsers",
+  "version": "1.0.0",
+  "description": "Simple and modern parsers for the Valve Source Engine file formats.",
+  "homepage": "https://github.com/TAServers/source-parsers",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "vcpkg-cmake",
+      "host": true
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "host": true
+    }
+  ]
+}
