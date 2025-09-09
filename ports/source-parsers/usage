@@ -2,3 +2,18 @@ source-parsers provides CMake targets:
 
 find_package(bspparser CONFIG REQUIRED)
 target_link_libraries(main PRIVATE SourceParsers::bspparser)
+
+find_package(mdlparser CONFIG REQUIRED)
+target_link_libraries(main PRIVATE SourceParsers::mdlparser)
+
+find_package(phyparser CONFIG REQUIRED)
+target_link_libraries(main PRIVATE SourceParsers::phyparser)
+
+find_package(vdfparser CONFIG REQUIRED)
+target_link_libraries(main PRIVATE SourceParsers::vdfparser)
+
+find_package(vpkparser CONFIG REQUIRED)
+target_link_libraries(main PRIVATE SourceParsers::vpkparser)
+
+find_package(vtfparser CONFIG REQUIRED)
+target_link_libraries(main PRIVATE SourceParsers::vtfparser)
