@@ -3,8 +3,8 @@ vcpkg_check_linkage(ONLY_STATIC_LIBRARY)
 vcpkg_from_github(
   OUT_SOURCE_PATH SOURCE_PATH
   REPO TAServers/source-parsers
-  REF "9eaa22b9c37b6da23c485034eac1f30a6cdc76ba"
-  SHA512 06159ac22ae31172d1ec95ff68d788a35aef4e4fcb946e9b73db36e7bccf63a9ccce2753920cdc4bda30b0cb2959a7fb1dade7ad77ec7031a16cd274f349c653
+  REF "b202af7a9fe3ed252ece48addfcd8c2fd6230fb1"
+  SHA512 592463cd4636e6a4f4f00b8ba3e0a6b5308cdb860f6cf34900e7fb40da5921e7f6aab74e0294bf06a1d811e1614e56a5b8f4a9d54cda512df3c49a893b4c2a89
   HEAD_REF master
 )
 
